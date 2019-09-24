@@ -1,14 +1,21 @@
 <template>
   <div>
-    <h1>test</h1>
+    <h4>{{ title }}</h4>
   </div>
 </template>
+
 <script>
 export default {
   data() {
     return {
-      citat: 'secret'
+      title: 'Park Cleanup'
     }
   }
 }
 </script>
+
+<style>
+h4 {
+  color: green;
+}
+</style>
