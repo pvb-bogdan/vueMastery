@@ -13,7 +13,7 @@
     <h2>
       Attendees
       <span class="badge -fill-gradient">{{
-        event.attendees ? event.attendees.length : 0 // just to correct err because event.atendees is undefined
+        event.attendees ? event.attendees.length : 0
       }}</span>
     </h2>
     <ul class="list-group">
