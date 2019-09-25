@@ -1,21 +1,44 @@
 <template>
-  <div>
-    <h4>{{ title }}</h4>
+  <div class="event-card -shadow">
+    <router-link
+      class="event-link"
+      :to="{ name: 'event-show', params: { id: event.id } }"
+    >
+      <span class="eyebrow">@{{ event.time }} 0n {{ event.date }}</span>
+      <h4>{{ event.title }}</h4>
+      <BaseIcon name="users">@{{ event.attendees.length }} attending</BaseIcon>
+    </router-link>
   </div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      title: 'Park Cleanup'
+  props: {
+    event: {
+      type: Object
     }
   }
 }
 </script>
 
-<style>
-h4 {
-  color: green;
+<style scoped>
+.event-card {
+  padding: 20px;
+  margin-bottom: 24px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.event-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2), 0 1px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.event-card > .title {
+  margin: 0;
+}
+
+.event-link {
+  color: black;
+  text-decoration: none;
+  font-weight: 100;
 }
 </style>
