@@ -71,6 +71,30 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 4,
+      "title": "Fam Petre's Day",
+      "date": "Oct 12 2019",
+      "time": "12:00",
+      "location": "1 Zvoristea street, Bucharest , Romania",
+      "description": "Party all the time",
+      "organizer": "bogdan Petre",
+      "category": "familiy",
+      "attendees": [
+        {
+          "id": "pvb123",
+          "name": "Bogdan Petre"
+        },
+        {
+          "id": "pvb456",
+          "name": "Monica Petre"
+        },
+        {
+          "id": "pvb789",
+          "name": "Rares Petre"
+        }
+      ]
     }
   ]
 }

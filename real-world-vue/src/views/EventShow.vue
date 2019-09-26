@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="event-header">
+    <div class="event-header mt-4">
       <span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
       <h1 class="title">{{ event.title }}</h1>
       <h5>Organized by {{ event.organizer }}</h5>
@@ -50,6 +50,9 @@ export default {
 </script>
 
 <style scoped>
+.mt-4 {
+  margin-top: 3rem;
+}
 .location {
   margin-bottom: 0;
 }
