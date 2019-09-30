@@ -95,6 +95,196 @@
           "name": "Rares Petre"
         }
       ]
+    },
+    {
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": " Adam Jahr"
+      },
+      "title": "Cleaning fields",
+      "description": "cleaning fileds near Bucharest",
+      "location": "Bucharest",
+      "date": "2019-09-30T12:34:00.000Z",
+      "time": "8:00",
+      "attendees": [],
+      "id": 5
+    },
+    {
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": " Adam Jahr"
+      },
+      "title": "tesy",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": [],
+      "id": 6
+    },
+    {
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": " Adam Jahr"
+      },
+      "title": "ghjgkl",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": [],
+      "id": 7
+    },
+    {
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "u",
+      "description": "uo[u",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": [],
+      "id": 8
+    },
+    {
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "u",
+      "description": "uo[u",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": [],
+      "id": 9
+    },
+    {
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "u",
+      "description": "uo[u",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": [],
+      "id": 10
+    },
+    {
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "u",
+      "description": "uo[u",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": [],
+      "id": 11
+    },
+    {
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "u",
+      "description": "uo[u",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": [],
+      "id": 12
+    },
+    {
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "u",
+      "description": "uo[u",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": [],
+      "id": 13
+    },
+    {
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "u",
+      "description": "uo[u",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": [],
+      "id": 14
+    },
+    {
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "u",
+      "description": "uo[u",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": [],
+      "id": 15
+    },
+    {
+      "id": 8377683,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "dsfg",
+      "description": "sdfd",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 2634944,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "nature title",
+      "description": "nature event",
+      "location": "dubai",
+      "date": "2019-09-11T12:53:00.000Z",
+      "time": "2:00",
+      "attendees": []
     }
   ]
 }
