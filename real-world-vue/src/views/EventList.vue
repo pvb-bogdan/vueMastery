@@ -6,29 +6,36 @@
       :key="event.id"
       :event="event"
     ></event-card>
+    <template v-if="page != 1">
+      <router-link :to="{ name: 'event-list', query: { page: page - 1 } }">
+        Prev page
+      </router-link>
+      |
+    </template>
+    <router-link :to="{ name: 'event-list', query: { page: page + 1 } }"
+      >Next page
+    </router-link>
   </div>
 </template>
 
 <script>
 import EventCard from '@/components/EventCard.vue'
-import EventService from '@/services/EventService.js'
+import { mapState } from 'vuex'
 export default {
   components: {
     'event-card': EventCard
   },
-  data() {
-    return {
-      events: []
-    }
-  },
   created() {
-    EventService.getEvents()
-      .then(response => {
-        this.events = response.data
-      })
-      .catch(error => {
-        console.log('There are an error' + error.message)
-      })
+    this.$store.dispatch('fetchEvents', {
+      perPage: 3,
+      page: this.page
+    })
+  },
+  computed: {
+    page() {
+      return parseInt(this.$route.query.page) || 1
+    },
+    ...mapState(['events'])
   }
 }
 </script>
