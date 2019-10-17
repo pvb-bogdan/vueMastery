@@ -1,8 +1,12 @@
 <template>
-  <v-card>
-    <v-card-title>{{ statistic.title }}</v-card-title>
-    <v-card-text class="display-2">{{ statistic.value }}</v-card-text>
-  </v-card>
+  <v-hover>
+    <template  v-slot="{ hover }">
+      <v-card :elevation="hover ? 24 : 6">
+        <v-card-title>{{ statistic.title }}</v-card-title>
+        <v-card-text class="display-2">{{ statistic.value }}</v-card-text>
+      </v-card>
+    </template>
+  </v-hover>
 </template>
 
 <script>
