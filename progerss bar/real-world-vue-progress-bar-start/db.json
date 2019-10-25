@@ -231,6 +231,60 @@
       "date": "",
       "time": "5:00",
       "attendees": []
+    },
+    {
+      "id": 8767911,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "By Kind to animals",
+      "description": "peeting zoo",
+      "location": "Orlando, Fl",
+      "date": "2019-10-12T13:28:00.000Z",
+      "time": "10:00",
+      "attendees": []
+    },
+    {
+      "id": 4628353,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 8946724,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "title": "Food, glorious food",
+      "description": "miam miam miam",
+      "location": "bucharest, Ro",
+      "date": "2019-10-31T12:33:00.000Z",
+      "time": "11:00",
+      "attendees": []
     }
   ]
 }
